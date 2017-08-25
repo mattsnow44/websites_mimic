@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+  
+.header {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 10px 0 20px 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.table_1 {
+  width: 100%;
+  margin-top: 20px;
+  background-color: lightblue;
+  border-collapse: collapse;
+  padding: 10px 20px;
+}
+
+.table_1,
+.table_1 td {
+  border: 2px solid blue;
+}
+
+.table_1 td {
+  padding: 10px;
+  text-align: center;
+}
+
+.table_2 {
+  width: 90%;
+  margin-top: 40px;
+  background-color: lightgray;
+  border-collapse: separate;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.table_2,
+.table_2 td,
+.table_2 th {
+  border: 1px solid black;
+  text-align: center;
+}
+.table_2 th,
+.table_3 th {
+  font-weight: bold;
+}
+
+.table_3 {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+.table_3 th {
+  padding-bottom: 20px;
+}
+.green {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.purple {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  border: 3px solid black;
+}
+.bunny {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-image: url("images/bunny.jpg");
+  background-size: contain;
+  border: 3px solid blue;
+}
+
+.column {
+  width: 33.33%;
+  display: inline-block;
+}
+
+.box {
+  width: 100%;
+  padding-top: 40px;
+  margin-top: 20px;
+  border-top: 2px solid gray;
+}
+ol {
+  list-style-type: decimal;
+}
+ul {
+  list-style-type: disc;
+}
