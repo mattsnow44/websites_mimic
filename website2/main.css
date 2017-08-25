@@ -1,0 +1,136 @@
+/* BEGIN RESET AREA */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* END RESET AREA */
+
+
+
+body{
+  background: gray;
+  font-family: serif;
+}
+
+header{
+  border-bottom: 2px solid white;
+  padding-bottom: 25px;
+}
+
+.container{
+  width: 100%;
+  border-bottom: 2px solid white;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.no-border{
+  border: none;
+}
+
+.half_block{
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 25px;
+}
+
+.half_block ul{
+  list-style: none;
+}
+
+#menu{
+width: 19%;
+display: inline-block;
+overflow: hidden;
+border: 3px dashed black;
+vertical-align: top;
+padding-top: 20px;
+height: 200px;
+}
+
+#menu ul{
+  list-style: disc;
+  padding-left: 20px;
+}
+
+#hours{
+  border-left: 5px solid black;
+}
+#img_container{
+  width: 79%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#img_container img{
+  display: block;
+  margin: 0 auto;
+}
+
+h1, h2, h3{
+  font-weight: bold;
+}
+
+h1, h2{
+  text-align: center;
+}
+h2, h3{
+  text-decoration: underline;
+}
+
+h1{
+  font-size: 60px;
+  line-height: 80px;
+}
+
+h2{
+  font-size: 52px;
+  line-height: 64px;
+  margin-bottom: 20px;
+}
+
+h3{
+  margin-bottom: 10px;
+}
